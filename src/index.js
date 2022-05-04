@@ -30,7 +30,7 @@ const client = new Client({
 client.login(token);
 
 client.on("ready", () => {
-  console.log("Disbot is running!");
+  console.log(`Logged in as ${client.user.username}`);
 });
 
 
